@@ -1,0 +1,36 @@
+h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+body {
+    width: 100%;
+    background-color: azure;
+}
+
+td {
+    border: 0;
+}
+
+.div-txt {
+    font-size: 26px;
+    font-weight: 800;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+sup {
+    color: #0057B7;
+}
+
+sub {
+    color: #FFDD00;
+}
+
+h4 {
+    background-color: rgb(133, 108, 78);
+    color: beige;
+    margin-top: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+p::before{color: #FFDD00;}
+p::after{color: #ff006a;}
