@@ -1,0 +1,122 @@
+html {
+    background-color: blanchedalmond;
+}
+
+.logo {
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    right: 10px;
+    margin: 4px;
+    border-radius: 50px;
+    border: 1px solid rgb(255, 255, 255);
+}
+
+nav {
+    margin-bottom: 20px;
+    background-color: black;
+    width: 100%;
+}
+
+.ul-nav {
+    list-style: none;
+    display: flex;
+    font-size: 26px;
+}
+
+.a-nav {
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+    background: black;
+    padding: 25px 10px;
+    display: inline-block;
+    width: 100%;
+}
+.a-nav:hover {
+    background: brown;
+    color: yellow;
+}
+
+.body-table-img {
+    box-shadow: 10px 10px 5px #00000042;
+    border-radius: 20px;
+    width: 350px;
+    height: 350px;
+}
+
+aside {
+    text-align: left;
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid rgba(0, 0, 0, 0.233);
+    font-size: 40px;
+}
+
+.a-side {
+    color: #000;
+    text-decoration: none;
+}
+
+.a-side:hover {
+    color: brown;
+}
+
+.ul-side {
+    list-style: none;
+}
+
+.scale {
+    transition: 0.5s;
+}
+.scale:hover {
+    transform: scale(1.5);
+}
+
+.scale-td {
+    overflow: hidden;
+    border-radius: 20px;
+    box-shadow: 10px 10px 5px #00000042;
+}
+.scale-td img {
+    transition: 0.5s;
+    display: block;
+}
+.scale-td img:hover {
+    transform: scale(1.5);
+}
+
+#block-left {
+    float: left;
+    display: block;
+    width: 730px;
+    height: 725px;
+    margin: 2px;
+}
+    
+#block-right {
+    float: right;
+    display: block;
+    width: 1075px;
+    height: 725px;
+    margin: 2px;
+}
+
+footer {
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+    width: 100%;
+    display: flex;
+}
+
+h4 {
+    text-transform: uppercase;
+}
+
+.ul-footer {
+    padding: 2px 150px 2px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-small;
+    list-style: none;
+}
